@@ -60,6 +60,10 @@ ol {
   align-items: center;
 }
 
+.header-nav.a {
+  color: #404bbf;
+}
+
 .header-list {
   gap: 40px;
   display: flex;
