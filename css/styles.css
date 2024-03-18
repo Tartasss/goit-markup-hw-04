@@ -51,6 +51,8 @@ ol {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -79,8 +81,33 @@ ol {
   margin-right: 76px;
 }
 
+.header-logo::after {
+  content: ;
+}
+
 .header-logo-blue {
   color: #2e2f42;
+}
+
+.current-menu {
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+}
+
+.current-menu:active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0px;
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  color: #404bbf;
 }
 
 .header-list .link {
@@ -127,7 +154,8 @@ ol {
   background-size: cover;
   background-color: #2e2f42;
   padding: 188px 0;
-  min-width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -157,6 +185,7 @@ ol {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
