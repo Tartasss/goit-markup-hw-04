@@ -10,6 +10,13 @@ img {
 
 a {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+link {
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -208,21 +215,53 @@ ol {
   color: #434455;
 }
 
-.team-icon {
+.features-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
+.features-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f4f4fd;
-  margin-bottom: 8px;
+  margin: 0 auto;
 }
 
 .team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.team-icon-group {
+  max-width: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 40px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.team-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .team-title {
@@ -263,17 +302,22 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.team-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-item-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
   text-align: center;
+  color: #434455;
+  margin-bottom: 8px;
 }
 
 .portfolio {
