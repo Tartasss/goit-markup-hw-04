@@ -67,6 +67,7 @@ ol {
 
 .header-list-item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 
 .addr-contact-list {
@@ -85,10 +86,6 @@ ol {
   margin-right: 76px;
 }
 
-.header-logo::after {
-  content: ;
-}
-
 .header-logo-blue {
   color: #2e2f42;
 }
@@ -101,18 +98,7 @@ ol {
   padding: 24px 0;
   display: block;
   position: relative;
-}
-
-.current-menu:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0px;
-  display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  color: #404bbf;
 }
 
 .header-list .link {
@@ -160,6 +146,7 @@ ol {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addr-contact-list .link:hover,
